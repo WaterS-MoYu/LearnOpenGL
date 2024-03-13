@@ -1,0 +1,2 @@
+D:\UE5_Projects\LearnOpenGL\Learning\x64\Debug\Learning.exe
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\x64\Debug\Learning.exe
