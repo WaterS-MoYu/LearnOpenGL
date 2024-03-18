@@ -1,3 +1,8 @@
-﻿  glad.c
-  main.cpp
+﻿  main.cpp
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(119,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(149,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(166,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(180,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(210,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(227,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   Learning.vcxproj -> D:\UE5_Projects\LearnOpenGL\LearnOpenGL\x64\Debug\Learning.exe
