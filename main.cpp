@@ -2,14 +2,14 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
-
+/*
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
 
 // settings
 const unsigned int SCR_WIDTH = 800;
 const unsigned int SCR_HEIGHT = 600;
-#define triangle 0;
+#define triangle 1;
 
 const char* vertexShaderSource = "#version 330 core\n"
 "layout (location = 0) in vec3 aPos;\n"
@@ -117,10 +117,20 @@ int main()
 
 	// 顶点数据
 #if triangle
+// 	float vertices[] = {
+// 	-0.5f, -0.5f, 0.0f,
+// 	0.5f, -0.5f, 0.0f,
+// 	0.0f, 0.5f, 0.0f
+// 	};
 	float vertices[] = {
-	-0.5f, -0.5f, 0.0f,
-	0.5f, -0.5f, 0.0f,
-	0.0f, 0.5f, 0.0f
+		// first triangle
+		-0.9f, -0.5f, 0.0f,  // left 
+		-0.0f, -0.5f, 0.0f,  // right
+		-0.45f, 0.5f, 0.0f,  // top 
+		// second triangle
+		 0.0f, -0.5f, 0.0f,  // left
+		 0.9f, -0.5f, 0.0f,  // right
+		 0.45f, 0.5f, 0.0f   // top 
 	};
 #else
 	float vertices[] = {
@@ -145,10 +155,10 @@ int main()
 	glGenVertexArrays(1, &VAO);
 	// 顶点缓冲对象
 	unsigned int VBO;
-	glGenBuffers(1, &VBO);
+	glGenBuffers(1, &VBO); //参数一：number of buffer object names to be generated
 #if triangle
 #else
-	// 元素缓冲对象
+	// 元素缓冲对象 存储顶点的索引信息，用于减少重复数据
 	unsigned int EBO;
 	glGenBuffers(1, &EBO);
 #endif
@@ -168,8 +178,8 @@ int main()
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 #endif
-	// 1. 顶点属性，前面在顶点着色器中使用layout(location = 0)定义了position顶点属性的位置值(Location)，它可以把顶点属性的位置值设置为0。因为我们希望把数据传递到这一个顶点属性中，所以这里传入0 
-	// 2. 顶点属性大小（vec3）3.数据类型 4.是否标准化 
+	// 1. 顶点属性index，前面在顶点着色器中使用layout(location = 0)定义了position顶点属性的位置值(Location)，它可以把顶点属性的位置值设置为0。因为我们希望把数据传递到这一个顶点属性中，所以这里传入0 
+	// 2. 单个顶点属性大小（vec3）3.数据类型 4.是否标准化 
 	// 5.步长Stride 在连续的顶点属性组之间的间隔 可以设置为0来让OpenGL决定具体步长是多少（只有当数值是紧密排列时才可用）
 	// 6.类型是void*，所以需要进行强制类型转换。它表示位置数据在缓冲中起始位置的偏移量(Offset)。由于位置数据在数组的开头，所以这里是0
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
@@ -186,7 +196,7 @@ int main()
 	glBindVertexArray(0);
 
 	// 线框模式
-	//glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+	glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
 	// 渲染循环
 	// ----------------------------------------------------------------------------------------------------------------------------------
@@ -209,7 +219,7 @@ int main()
 		glBindVertexArray(VAO);
 #if triangle
 		// 参数1是打算绘制的OpenGL图元的类型，参数2指定了顶点数组的起始索引。参数3指定打算绘制多少个顶点
-		glDrawArrays(GL_TRIANGLES, 0, 3);
+		glDrawArrays(GL_TRIANGLES, 0, 6);
 #else
 		// 绘制模式 顶点个数 索引类型 偏移量
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
@@ -236,6 +246,7 @@ int main()
 	return 0;
 }
 
+
 // process all input: query GLFW whether relevant keys are pressed/released this frame and react accordingly
 void processInput(GLFWwindow* window)
 {
@@ -252,3 +263,4 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 	// 后两个参数：宽度，高度
 	glViewport(0, 0, width, height);
 }
+*/

@@ -1,8 +1,9 @@
-﻿  main.cpp
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(119,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(149,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(166,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(180,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(210,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\main.cpp(227,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+﻿  shader.cpp
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(135,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(175,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(192,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(206,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(236,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(242,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(260,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   Learning.vcxproj -> D:\UE5_Projects\LearnOpenGL\LearnOpenGL\x64\Debug\Learning.exe
