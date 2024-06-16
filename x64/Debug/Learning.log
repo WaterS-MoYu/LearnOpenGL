@@ -1,9 +1,10 @@
-﻿  shader.cpp
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(135,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(175,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(192,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(206,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(236,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(242,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-D:\UE5_Projects\LearnOpenGL\LearnOpenGL\shader.cpp(260,5): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+﻿  camera.cpp
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(240,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(347,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(348,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(352,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(353,16): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(354,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(355,10): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\UE5_Projects\LearnOpenGL\LearnOpenGL\camera.cpp(379,17): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
   Learning.vcxproj -> D:\UE5_Projects\LearnOpenGL\LearnOpenGL\x64\Debug\Learning.exe
